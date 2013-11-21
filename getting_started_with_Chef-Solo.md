@@ -15,6 +15,13 @@ Login into the AWS EC2 instance:
 
 
 
+How to install Emacs into AWS EC2 instance:
+
+    $ cd
+    $ sudo yum -y install emacs
+
+
+
 How to install Git client into AWS EC2 instance:
 
     * remember you need IP port #9418 to be open in the security
@@ -54,4 +61,10 @@ Clone the sample Chef-Solo repository provided by OpsCode
 
 Clone my ChefSoloLesson repository provided by me
  
-       $ git clone git@github.com:kazurayam/ChefSoloLesson.git	
+       $ git clone git@github.com:kazurayam/ChefSoloLesson.git
+
+Setup chef-repo with prepared files
+
+    $ cd
+    $ cd ./ChefSoloLesson
+    $ ./setup	
