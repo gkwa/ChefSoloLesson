@@ -1,10 +1,10 @@
 package "nginx" do
-  action :intall
+  action :install
 end
 
 service "nginx" do
   supports :status => true, :restart => true, :reload => true
-  action[:enable, :start]
+  action [:enable, :start]
 end
 
 template "nginx.conf" do

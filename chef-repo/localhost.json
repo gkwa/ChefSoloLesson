@@ -3,7 +3,7 @@
   "nginx": {
     "port": 80
   },
-  "run_list"; {
+  "run_list": [
     "nginx"
-  }
+  ]  
 }
