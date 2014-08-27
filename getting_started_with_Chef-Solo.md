@@ -67,4 +67,4 @@ Setup chef-repo with prepared files
 
     $ cd
     $ cd ./ChefSoloLesson
-    $ ./setup	
+    $ ./setup_chef-repo.sh
