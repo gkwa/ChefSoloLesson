@@ -55,7 +55,7 @@ Clone the sample Chef-Solo repository provided by OpsCode
 
        $ git clone git://github.com/opscode/chef-repo.git
 
-       you will have ./chef.repo
+       you will have ./chef-repo
 
 
 
